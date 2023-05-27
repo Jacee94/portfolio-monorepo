@@ -128,3 +128,7 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+apps/portfolio-next/.sst
+apps/portfolio-next/.open-next
+apps/portfolio-next/.next

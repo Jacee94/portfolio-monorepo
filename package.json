@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cd apps/portfolio-next && concurrently \"npx sst dev\" \"npm run dev\""
+    "dev": "cd apps/portfolio-next && concurrently \"npx sst dev\" \"npm run dev\"",
+    "deploy:portfolio-next": "cd apps/portfolio-next && npx sst deploy --stage production"
   },
   "repository": {
     "type": "git",
