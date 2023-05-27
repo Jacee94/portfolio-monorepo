@@ -1,0 +1,23 @@
+{
+  "name": "portfolio-monorepo",
+  "version": "1.0.0",
+  "description": "portfolio-next-sst",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd apps/portfolio-next && concurrently \"npx sst dev\" \"npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jacee94/portfolio-next-sst.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jacee94/portfolio-next-sst/issues"
+  },
+  "homepage": "https://github.com/Jacee94/portfolio-next-sst#readme",
+  "dependencies": {
+    "concurrently": "^8.0.1"
+  }
+}
